@@ -15,6 +15,7 @@
 		B7356A961D51EA7D008E7BD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7356A941D51EA7D008E7BD5 /* LaunchScreen.storyboard */; };
 		B7356AA11D51EA7D008E7BD5 /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7356AA01D51EA7D008E7BD5 /* _______Tests.m */; };
 		B7356AAC1D51EA7D008E7BD5 /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7356AAB1D51EA7D008E7BD5 /* _______UITests.m */; };
+		B7356ABA1D51EB2E008E7BD5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7356AB91D51EB2E008E7BD5 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		B7356AA71D51EA7D008E7BD5 /* 圆跟着轨迹滚动UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "圆跟着轨迹滚动UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7356AAB1D51EA7D008E7BD5 /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
 		B7356AAD1D51EA7D008E7BD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7356AB91D51EB2E008E7BD5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7356ABA1D51EB2E008E7BD5 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		B7356A7A1D51EA7D008E7BD5 = {
 			isa = PBXGroup;
 			children = (
+				B7356AB91D51EB2E008E7BD5 /* UIKit.framework */,
 				B7356A851D51EA7D008E7BD5 /* 圆跟着轨迹滚动 */,
 				B7356A9F1D51EA7D008E7BD5 /* 圆跟着轨迹滚动Tests */,
 				B7356AAA1D51EA7D008E7BD5 /* 圆跟着轨迹滚动UITests */,
